@@ -4,7 +4,7 @@
 In this project, we aim to develop machine learning models to predict defects in semiconductor manufacturing processes. Semiconductor manufacturing involves complex processes where defects can have significant impacts on product quality and yield. By accurately predicting defects, manufacturers can implement proactive measures to improve production efficiency and reduce costs.
 
 ## Dataset
-- **Source**: The dataset used in this project was obtained from (https://www.kaggle.com/datasets/paresh2047/uci-semcom/data).
+- **Source**: The dataset used in this project was obtained from https://www.kaggle.com/datasets/paresh2047/uci-semcom/data.
 - **Features**: The dataset contains various process parameters and measurements from semiconductor manufacturing processes.
 - **Target Variable**: The target variable indicates whether a product was defective or not.
 - **Data Preprocessing**: Preprocessing steps include handling missing values, removing features with zero variance, and scaling numerical features.
@@ -20,7 +20,7 @@ Implemented Gaussian Naive Bayes classifier for defect prediction. Conducted fea
 Utilized K-Nearest Neighbors algorithm for defect prediction. Tuned hyperparameters such as the number of neighbors (k) to optimize model performance. Evaluated model performance using cross-validation and compared results with GNB.
 
 ## Results and Evaluation
-Compared the performance of GNB and KNN models based on metrics such as accuracy, precision, recall, and F1-score. Analyzed confusion matrices to understand the strengths and weaknesses of each model. Provided insights into the bias-variance trade-off observed in the models and their implications for real-world applications.
+Compared the performance of GNB and KNN models based on metrics such as accuracy, precision, recall, AUC and F1-score. Analyzed confusion matrices to understand the strengths and weaknesses of each model. Provided insights into the bias-variance trade-off observed in the models and their implications for real-world applications.
 
 ## Conclusion and Future Work
 Summarized key findings and insights from the project.
